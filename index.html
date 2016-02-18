@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js" ></script>
 
     <title>Dunder Mifflin Paper Company</title>
   </head>
   <body>
     <div class="pageTop">
       <div id="hero">
+        <div class="transparentOverlay">
       <div class="navbar-fixed">
         <nav class="transparent">
           <div class="nav-wrapper blue-grey">
@@ -35,6 +38,7 @@
           </div>
         </nav>
       </div>
+    </div>
       <div class="row header">
         <div id="headerText" class="col s12 col m5 offset-m6">
           <h2>Limitless paper, in a paperless world.</h2>
@@ -42,13 +46,19 @@
           <a class="waves-effect waves-red btn-large blue-grey"><i class="material-icons left">supervisor_account</i>About Us</a>
         </div>
       </div>
+
       </div>
     </div>
+
+
+
     <div class="video">
       <div class="container">
         <div class="row">
           <h5 class="tagline col m8 offset-m2">"In a fast-moving world, good news travels at the speed of time, and bad news isn't always what it seems."</h5>
-          <iframe width="640" height="480" src="https://www.youtube.com/embed/Sn3yhB49RSM" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Sn3yhB49RSM' frameborder='0' allowfullscreen></iframe></div>
         </div>
       </div>
     </div>
@@ -57,27 +67,27 @@
     <div class="pageMid">
 
       <div class="container">
-        <div class="row section">
-          <img src="img/thing-green.jpg" alt="" class="midImageLeft responsive-img col s2">
-          <div class="col s6">
+        <div class="thinkGreen row section">
+          <img src="img/thing-green.jpg" alt="" class="midImageLeft responsive-img col s8 offset-s2 col m2">
+          <div class="col m6">
             <h4>Think Green</h4>
             <p>
               Dunder Mifflin is committed to improving the environment. That's why we plant a tree for each and every metric ton of paper that we ship. We look at it as an investment in the future because without trees, we have no paper and without paper, we have no business.
             </p>
           </div>
         </div>
-        <div class="row section">
-          <img src="img/bathroom.png" alt="" class="bathroom responsive-img col s2 push-s10">
-          <div class="col s6 push-s2">
+        <div class="joinTeam row section">
+          <img src="img/bathroom.png" alt="" class="bathroom responsive-img col s6 offset-s3 col m2 push-m10">
+          <div class="col m6 push-m2">
             <h4>Join Our Team</h4>
             <p>
               At Dunder Mifflin, we discovered early on that the secret to our success was our employees. We make it a point to attract talented professionals who are willing to commit the time and effort into making Dunder Mifflin one of the most successful paper distribution companies out there.
             </p>
           </div>
         </div>
-        <div class="row section">
-          <img src="img/box.jpg" alt="" class="midImageLeft responsive-img col s2">
-          <div class="col s6">
+        <div class="ourProducts row section">
+          <img src="img/box.jpg" alt="" class="midImageLeft responsive-img col s8 offset-s2 col m2">
+          <div class="col m6">
             <h4>See Our Products</h4>
             <p>
               Dunder Mifflin makes it a high priority to sell top of the line products at competitive and reasonable prices. We ensure that our products meet even the most stringent of quality standards. Take a look at the products that Dunder Mifflin has to offer and place an order today!
@@ -113,5 +123,4 @@
       </div>
     </div>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 </html>
