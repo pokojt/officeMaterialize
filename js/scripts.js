@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
   $('.covervid-video').coverVid(1920, 1080);
-  // $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav();
   // var slider = $.fn.fsvs({
 	// 	...
 	// 	endSlide : function(index) {
